@@ -39,4 +39,4 @@ for i in range(n):
     for j in range(m):
         if matriz[i][j] > mayor:
             mayor, fila_m, col_m = matriz[i][j], i, j
-print(f"\n🔍 Mayor valor: {mayor}, ubicado en fila {fila_m}, columna {col_m}")
+print(f"\n Mayor valor: {mayor}, ubicado en fila {fila_m}, columna {col_m}")
