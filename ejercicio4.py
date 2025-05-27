@@ -5,7 +5,7 @@ while True:
     if 1 <= n < 10 and 1 <= m < 10:
         break
     else:
-        print("⚠️ Error: Ambos valores deben ser mayores que 0 y menores que 10.\n")
+        print("Error: Ambos valores deben ser mayores que 0 y menores que 10.\n")
 
 # Captura de los valores de la matriz con validación
 matriz = []
@@ -22,12 +22,12 @@ for i in range(n):
     matriz.append(fila)
 
 # Suma por fila
-print("\n📌 Suma por fila:")
+print("\nSuma por fila:")
 for i, fila in enumerate(matriz):
     print(f"Fila {i+1}: {sum(fila)}")
 
 # Promedio por columna
-print("\n📌 Promedio por columna:")
+print("\nPromedio por columna:")
 for j in range(m):
     promedio = sum(matriz[i][j] for i in range(n)) / n
     print(f"Columna {j+1}: {promedio:.2f}")
